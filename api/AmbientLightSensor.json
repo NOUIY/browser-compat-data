@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor",
         "spec_url": "https://w3c.github.io/ambient-light/#ambient-light-sensor-interface",
+        "tags": [
+          "web-features:ambient-light"
+        ],
         "support": {
           "chrome": {
             "version_added": "56",
@@ -32,7 +35,8 @@
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -42,9 +46,12 @@
       },
       "AmbientLightSensor": {
         "__compat": {
-          "description": "<code>AmbientLightSensor()</code> constructor",
+          "description": "`AmbientLightSensor()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor/AmbientLightSensor",
           "spec_url": "https://w3c.github.io/ambient-light/#dom-ambientlightsensor-ambientlightsensor",
+          "tags": [
+            "web-features:ambient-light"
+          ],
           "support": {
             "chrome": {
               "version_added": "56",
@@ -73,7 +80,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -86,6 +94,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor/illuminance",
           "spec_url": "https://w3c.github.io/ambient-light/#ambient-light-sensor-reading-attribute",
+          "tags": [
+            "web-features:ambient-light"
+          ],
           "support": {
             "chrome": {
               "version_added": "56",
@@ -115,7 +126,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
