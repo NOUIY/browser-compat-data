@@ -3,6 +3,9 @@
     "CropTarget": {
       "__compat": {
         "spec_url": "https://w3c.github.io/mediacapture-region/#crop-target",
+        "tags": [
+          "web-features:region-capture"
+        ],
         "support": {
           "chrome": {
             "version_added": "104"
@@ -26,7 +29,8 @@
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -34,9 +38,13 @@
           "deprecated": false
         }
       },
-      "fromElement": {
+      "fromElement_static": {
         "__compat": {
+          "description": "`fromElement()` static method",
           "spec_url": "https://w3c.github.io/mediacapture-region/#dom-croptarget-fromelement",
+          "tags": [
+            "web-features:region-capture"
+          ],
           "support": {
             "chrome": {
               "version_added": "104"
@@ -60,7 +68,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
